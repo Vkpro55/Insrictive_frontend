@@ -94,8 +94,8 @@ This project is a full-stack application with a **React + TailWind CSS** Fronten
 ### Frontend (React)
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/Vkpro55/Imagify_Frontend.git
-   cd Imagify_Frontend
+   git clone https://github.com/Vkpro55/Insrictive_frontend.git
+   cd Insrictive_frontend
    ```
 
 2. **Install Dependencies**:
@@ -108,8 +108,7 @@ This project is a full-stack application with a **React + TailWind CSS** Fronten
    npm run dev
    ```
 
+![Screenshot (482)](https://github.com/user-attachments/assets/bc6806ae-4d85-4a28-91c4-071a9eec0e95)
 
-![Screenshot (473)](https://github.com/user-attachments/assets/c87a40ef-84f1-41a3-b714-379850e9f11b)
-![Screenshot (474)](https://github.com/user-attachments/assets/a7f924f7-93c7-4e92-94a8-6823102b20ee)
 
    
