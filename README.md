@@ -16,7 +16,11 @@ This project is a full-stack application with a **React + TailWind CSS** Fronten
 
 1. **Backend Repo**:
    ```bash
-   https://github.com/Vkpro55/Imagify_Backend/tree/main
+   https://github.com/Vkpro55/Imagify_Backend
+   ```
+   Backend Deployed Url: 
+   ```bash
+    https://instrictive-backend.onrender.com
    ```
 
 2. **Clone the repository**:
