@@ -3,22 +3,16 @@
 # Full-Stack Project: Student Management App UI (React + Tailwind) with Crud Operations Using Supabase and Prisma in Node.js Backend
 
 ## Overview
-This project is a full-stack application with a **FastAPI** backend and a **React** frontend. The backend handles the image upload, storage, and metadata management, while the frontend allows users to upload images and view the results interactively.
+This project is a full-stack application with a **React + TailWind CSS** Frontend and a **Node.js with Supabse and Prisma ORM** Backend. The backend handles the full Crud opeartion for Students seamlessly.
 
-## Features
-- **Image Upload**: Users can upload images to the backend.
-- **Mask Image Upload**: Users can upload a mask image to apply to the original image.
-- **Image Metadata**: The backend stores metadata about uploaded images and their associated masks in a MongoDB database.
-- **Frontend**: A simple interface to upload images and display feedback.
 
 ## How to Run the Project Locally
 
 ### Prerequisites
-- Python 3.8+
-- MongoDB (either local instance or MongoDB Atlas for cloud database)
-- **Virtual environment** for Python dependencies (recommended)
+- Node.js 
+- Supabase with Prisma ORM
 
-### Backend (FastAPI)
+### Backend (Node.js + Supabse + Prisma ORM)
 
 1. **Backend Repo**:
    ```bash
@@ -27,17 +21,65 @@ This project is a full-stack application with a **FastAPI** backend and a **Reac
 
 2. **Clone the repository**:
    ```bash
-   git clone https://github.com/Vkpro55/Imagify_Backend.git
-   cd Imagify_Backend
+   git clone https://github.com/Vkpro55/Instrictive_Backend.git
+   cd Instrictive_Backend
    ```
 3. **Install Packages**:
    ```bash
-   pip -r requirements.txt
+   npm install
    ```
 3. **Run the backend server**:
    ```bash
-   uvicorn app.main:app --reload
+   npm start
    ```
+4. **Backend API Endpoints**:
+   ```bash
+   curl -X GET https://instrictive-backend.onrender.com/api/students
+    
+   ```
+   ```bash
+   curl -X PUT https://instrictive-backend.onrender.com/api/students/3 \
+     -H "Content-Type: application/json" \
+     -d '{
+           "name": "Updated",
+           "cohort": "AY25",
+           "dateJoined": "2024-12-24T07:40:34.849Z",
+           "lastLogin": "2024-12-24T07:40:34.849Z",
+           "status": true,
+           "courses": [
+             {
+                 "id": 1,
+                 "name": "CBSE 9 Math"
+             }
+           ]
+         }'
+
+   ```
+
+   ```bash
+   curl -X DELETE http://localhost:3000/api/students/103
+
+   ```
+
+  ```bash
+curl -X POST https://instrictive-backend.onrender.com/api/students \
+     -H "Content-Type: application/json" \
+     -d '{
+           "name": "New Student",
+           "cohort": "AY25",
+           "dateJoined": "2024-12-24T07:40:34.849Z",
+           "lastLogin": "2024-12-24T07:40:34.849Z",
+           "status": true,
+           "courses": [
+             {
+                 "id": 1,
+                 "name": "CBSE 9 Math"
+             }
+           ]
+         }'
+
+  ```
+
 
 ### Frontend (React)
 1. **Clone the repository**:
