@@ -60,9 +60,8 @@ This project is a full-stack application with a **React + TailWind CSS** Fronten
    curl -X DELETE http://localhost:3000/api/students/103
 
    ```
-
-  ```bash
-curl -X POST https://instrictive-backend.onrender.com/api/students \
+   ```bash
+   curl -X POST https://instrictive-backend.onrender.com/api/students \
      -H "Content-Type: application/json" \
      -d '{
            "name": "New Student",
@@ -78,8 +77,15 @@ curl -X POST https://instrictive-backend.onrender.com/api/students \
            ]
          }'
 
-  ```
 
+   ```
+
+
+
+![Screenshot (478)](https://github.com/user-attachments/assets/a77d80ca-ae8b-4cfe-a66d-596e8a2ccb18)
+![Screenshot (479)](https://github.com/user-attachments/assets/660fc900-bb5a-4cc8-b6e1-6136f2cc7fa5)
+![Screenshot (480)](https://github.com/user-attachments/assets/aaeb379d-e324-4174-b6c5-73af3e475be3)
+![Screenshot (481)](https://github.com/user-attachments/assets/edc69352-435f-4a7a-bab8-3041bb8e465d)
 
 ### Frontend (React)
 1. **Clone the repository**:
