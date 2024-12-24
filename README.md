@@ -1,6 +1,6 @@
 # React + Vite
 
-# Full-Stack Project: Image Upload and Masking Service
+# Full-Stack Project: Student Management App UI (React + Tailwind) with Crud Operations Using Supabase and Prisma in Node.js Backend
 
 ## Overview
 This project is a full-stack application with a **FastAPI** backend and a **React** frontend. The backend handles the image upload, storage, and metadata management, while the frontend allows users to upload images and view the results interactively.
